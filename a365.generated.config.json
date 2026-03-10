@@ -1,0 +1,37 @@
+{
+  "managedIdentityPrincipalId": "d39e11e2-0a95-4c19-8d2d-b26850dc967f",
+  "agentBlueprintId": "dc41ddbf-59e3-405d-b301-bc973c31f595",
+  "agentBlueprintObjectId": "dc41ddbf-59e3-405d-b301-bc973c31f595",
+  "agentBlueprintServicePrincipalObjectId": null,
+  "AgenticAppId": null,
+  "AgenticUserId": null,
+  "agentBlueprintClientSecret": null,
+  "agentBlueprintClientSecretProtected": false,
+  "botId": "dc41ddbf-59e3-405d-b301-bc973c31f595",
+  "botMsaAppId": "dc41ddbf-59e3-405d-b301-bc973c31f595",
+  "botMessagingEndpoint": "https://collabagent-webapp.azurewebsites.net/api/messages",
+  "resourceConsents": [
+    {
+      "resourceName": "Microsoft Graph",
+      "resourceAppId": "00000003-0000-0000-c000-000000000000",
+      "consentUrl": "https://login.microsoftonline.com/7237f4ea-aeb0-4bad-bef0-60c7bd5b9504/v2.0/adminconsent?client_id=dc41ddbf-59e3-405d-b301-bc973c31f595\u0026scope=Mail.ReadWrite%20Mail.Send%20Chat.ReadWrite%20User.Read.All%20Sites.Read.All\u0026redirect_uri=https://entra.microsoft.com/TokenAuthorize\u0026state=xyz123",
+      "consentGranted": true,
+      "consentTimestamp": "2026-02-10T02:18:18.3432024Z",
+      "scopes": [
+        "Mail.ReadWrite",
+        "Mail.Send",
+        "Chat.ReadWrite",
+        "User.Read.All",
+        "Sites.Read.All"
+      ]
+    }
+  ],
+  "deploymentLastTimestamp": null,
+  "deploymentLastStatus": null,
+  "deploymentLastCommitHash": null,
+  "deploymentLastBuildId": null,
+  "lastUpdated": "2026-02-10T02:18:27.5296318Z",
+  "cliVersion": "1.1.62.13773",
+  "completed": true,
+  "completedAt": "2026-02-10T02:18:27.5278852Z"
+}

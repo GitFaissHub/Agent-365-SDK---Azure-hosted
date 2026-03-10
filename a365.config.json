@@ -1,0 +1,21 @@
+{
+  "tenantId": "7237f4ea-aeb0-4bad-bef0-60c7bd5b9504",
+  "messagingEndpoint": "https://collabagent-webapp.azurewebsites.net/api/messages",
+  "subscriptionId": "97335f02-d9b6-41a2-b90e-c237f95e0b2e",
+  "resourceGroup": "agentdemoa365",
+  "location": "westeurope",
+  "environment": "prod",
+  "needDeployment": true,
+  "clientAppId": "f2887c1f-9d31-4726-9c66-493b212d91fe",
+  "appServicePlanName": "agentdemoa365-plan",
+  "appServicePlanSku": "B2",
+  "webAppName": "collabagent-webapp",
+  "agentIdentityDisplayName": "CollabAgent Identity",
+  "agentBlueprintDisplayName": "CollabAgent Blueprint",
+  "agentUserPrincipalName": "UPN.collabagent@MngEnvMCAP008613.onmicrosoft.com",
+  "agentUserDisplayName": "CollabAgent Agent User",
+  "managerEmail": "admin@MngEnvMCAP008613.onmicrosoft.com",
+  "agentUserUsageLocation": "US",
+  "deploymentProjectPath": "agent365-agentframework-python",
+  "agentDescription": "CollabAgent - Agent 365 Agent"
+}

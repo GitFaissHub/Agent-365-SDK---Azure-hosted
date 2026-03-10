@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.venv/
+.env
+.env.*
+*.env
+*.db
+*.sqlite3
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test/Build
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+
+# Misc
+*.bak
+*.swp
+*.tmp
+
+# Azure
+*.azure/

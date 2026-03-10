@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/vdevPreview/MicrosoftTeams.schema.json",
+  "id": "dc41ddbf-59e3-405d-b301-bc973c31f595",
+  "name": {
+    "short": "CollabAgent Blueprint",
+    "full": "CollabAgent Blueprint"
+  },
+  "description": {
+    "short": "This sample is the Hello World for building enterprise-grade AI agents.",
+    "full": "This sample is the Hello World for building enterprise-grade AI agents that bridge the Microsoft Agent Framework with the Agent 365 ecosystem."
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#9ec9d9",
+  "version": "1.1.6",
+  "manifestVersion": "devPreview",
+  "developer": {
+    "name": "Microsoft Corporation",
+    "mpnId": "",
+    "websiteUrl": "https://go.microsoft.com/fwlink/?LinkId=518028",
+    "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=518028",
+    "termsOfUseUrl": "https://shares.datatransfer.microsoft.com/assets/Microsoft_Terms_of_Use.html"
+  },
+  "agenticUserTemplates": [
+    {
+      "id": "7b0926a6-c4ee-445a-a913-bd054594bd09",
+      "file": "agenticUserTemplateManifest.json"
+    }
+  ],
+  "bots": [
+    {
+      "botId": "dc41ddbf-59e3-405d-b301-bc973c31f595",
+      "scopes": ["team", "personal"],
+      "commandLists": [],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ]
+}
